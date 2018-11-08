@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    font-family: Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
+
+}
+body{
+    padding:0;
+    margin: 0;
+}
+div .header{
+    height: 80px;
+    line-height: 80px;
+}
+.header img{
+    transform:scale(1.2);
+}
+.middle{
+    width: 100%;
+    height: 580px;
+    background:url(../img/operatbg.jpg) no-repeat;
+    margin-top: 10px;
+    content: "";
+    display: table;
+}
+.middle .main{
+    height: 360px;
+    width: 550px;
+    background: white;
+    border: 1px solid transparent;
+    opacity: 0.85;
+    margin: 50px auto;
+}
+.middle .login-left h5{
+    margin-left:25px;
+    color: #37b5f9;
+    font-size:24px;
+}
+.middle .login-left div:nth-child(2)>input{
+    width: 240px;
+    height: 32px;
+    margin: 15px 25px;
+}
+.middle .login-left div:nth-child(3)>input{
+    width: 240px;
+    height: 32px;
+    margin: 15px 25px;
+}
+.middle .login-left div:nth-child(4)>input{
+    width: 240px;
+    height: 32px;
+    margin: 15px 25px;
+}
+.middle .login-left div:nth-child(5)>input{
+    margin: 15px 5px 15px 25px;
+}
+.middle .login-right div{
+    height: 40px;
+    width: 135px;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+.middle .login-right div a{
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.middle .login-right .qq{
+    background: url(../img/qq.jpg) no-repeat 13px 12px;
+    border:1px solid #00c800;
+    padding-left: 40px;
+    margin-top: 30px;
+}
+.middle .login-right .wb{
+    background: url(../img/wb.jpg) no-repeat 13px 12px;
+    border:1px solid blue;
+    padding-left: 40px;
+}
+.middle .login-right .wx{
+    background: url(../img/wx.jpg) no-repeat 13px 12px;
+    border:1px solid red;
+    padding-left: 40px;
+}
+
+footer.login-footer{
+    margin-top: 20px;
+    text-align: center;
+}
+
+

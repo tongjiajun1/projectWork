@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/reyin.css">  
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src='js/vue.js'></script>
+    <title></title>
+</head>
+<body>
+    <iframe src="header.html" frameborder="0" class="my_header"></iframe>
+
+    <div class="main" id='app'>
+        <div class="header qd">
+        <!-- 左边 -->
+            <div class="left">
+                <div>
+                    <ul>
+                        <li class="active"><a href="#">今日电影</a></li>
+                        <li><a href="#">影院热映</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 右边 -->
+            <div class="right">
+                <div>热门影视</div>
+            </div>
+        </div>
+        <div class="">
+            <h3>今日:{{now}}</h3>
+        </div>
+    </div>
+    
+    <!-- 尾部 -->
+    <footer>
+        <iframe src="footer.html" class='my_footer' frameborder="0"></iframe>
+    </footer>
+    <script>
+        var vm=new Vue({
+            el:'#app',
+            data:{
+                now:new Date().toLocaleString()
+            }
+        })
+        setInterval(function(){
+            vm.now=new Date().toLocaleString()
+        },1000)
+    </script>
+</body>
+</html>

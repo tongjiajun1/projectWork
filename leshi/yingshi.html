@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/yingshi.css">
+    <link href="css/font_se0yinpbckq/iconfont.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script> 
+    <title></title>
+</head>
+<body>
+    <header>
+        <div class="le_head">
+            <div class="le_logo">
+                <a href="index.html"><i></i></a>
+                <a href="#" class="zt" id='dao'>导航</a>
+                <span></span>
+            </div>
+            <!--隐藏部分-->
+            <div class="hidden-box" id='box'>
+                <ul>
+                    <li>电视剧</li>
+                    <li>电影</li>
+                    <li>动漫</li>
+                    <li>综艺</li>
+                    <li>资讯</li>
+                    <li>娱乐</li>
+                    <li>热点</li>
+                </ul>
+                <ul>
+                    <li>生活</li>
+                    <li>搞笑</li>
+                    <li>网剧</li>
+                    <li>音乐</li>
+                    <li>教育</li>
+                    <li>科技</li>
+                    <li>亲子</li>
+                </ul>
+                <ul>
+                    <li>萌宠</li>
+                    <li>汽车</li>
+                    <li>纪录片</li>
+                    <li>旅游</li>
+                    <li>风尚</li>
+                    <li>游戏</li>
+                    <li>会员</li>
+                </ul>
+                <ul>
+                    <li>会员</li>
+                    <li>热映大片</li>
+                    <li>买三送三</li>
+                </ul>
+                <hr>
+                <ul>
+                    <li>超级电视</li>
+                    <li>乐视商城</li>
+                    <li>乐迷社区</li>
+                    <li>APP下载</li>
+                </ul>
+            </div>
+
+            <div class="nav-center">
+                <i class="iconfont icon-search"></i>    
+                <input class='input-search' type="text" placeholder="奔跑吧" unselectable="on"/>
+                <button class="search-btn">搜索</button>
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li>
+                        <a href="#" >
+                            <i class='iconfont icon-vip'></i>
+                            <span>开通会员</span>     
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class='aaaa'>
+                            <i class='iconfont icon-icon-msg'></i>
+                            <span>消 息</span> 
+                        </a>
+                    </li>
+                    <li> 
+                        <a href="#" >
+                            <i class='iconfont icon-play'></i>
+                            <span>看 过</span> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="login.html" >
+                            <i class='iconfont icon-weidenglu-touxiang'></i>
+                            <span>未登录</span> 
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class='main'>
+       <!--轮播效果-->
+        <div id="slider">
+            <div class="slider_box" id="slider_name">
+              <div class="silder_tip" id="movie_tip">电影</div>
+              <ul class="silder_con">
+                <li class="silder_panel clearfix"> 
+                    <a href="#" class="f_l">
+                        <img src="img/yingshi/aa.jpg" />
+                    </a>
+                    <div class="silder_intro f_r">
+                        <h3> 
+                            <strong>
+                                <a href="#">捉妖记</a>
+                            </strong> 
+                            <span>最新：TS版</span> 
+                        </h3>
+                        <ul>
+                            <li>
+                                <label>类型：</label>
+                                <span>
+                                    <a href="#">动作</a>
+                                    <a href="#">古装</a>
+                                    <a href="#">预告片</a>
+                                </span>
+                            </li>
+                            <li>
+                                <label>导演：</label>
+                                <span>
+                                    <a href="#">冯德伦</a>
+                                </span>
+                            </li>
+                            <li>
+                                <label>主演：</label>
+                                <span>
+                                    <a href="#">梁家辉</a>
+                                    <a href="#">杨颖</a>
+                                    <a href="#">彭于晏</a>
+                                    <a href="#">冯绍峰</a>
+                                </span>
+                            </li>
+                        </ul>
+                        <p>[<strong>影片介绍</strong>]《太极之从零开始》是由华谊兄弟出品，王中磊担任制片人、陈国富监制、冯德伦导演的电影《太极》三部曲中的第一部。该片已入围第69届威尼斯电影节非..
+                        </p>
+                        <a class="silder_play"  href="#">马上观看</a>
+                    </div>
+                </li>
+                <li class="silder_panel clearfix"> 
+                    <a href="#" class="f_l">
+                        <img src="img/yingshi/bb.jpg" />
+                    </a>
+                  <div class="silder_intro f_r">
+                    <h3> <strong><a href="#">长城</a></strong> <span>最新：TC</span> </h3>
+                    <ul>
+                      <li>
+                        <label>类型：</label>
+                        <span><a href="#">爱情</a><a href="#">古装</a><a href="#">预告片</a></span></li>
+                      <li>
+                        <label>导演：</label>
+                        <span><a href="#">赵林山</a></span></li>
+                      <li>
+                        <label>主演：</label>
+                        <span><a href="#">周润发</a><a href="#">刘亦菲</a><a href="#">玉木宏</a></span></li>
+                    </ul>
+                    <p>[<strong>影片介绍</strong>]庚子年，恰逢天象“四星合一”，预示改朝换代之征兆。曹操（周润发饰）的部属、尤其他的公子曹丕（邱心志饰），希望借此良机推献帝禅位、曹操登..</p>
+                    <a class="silder_play"  href="#">马上观看</a></div>
+                </li>
+                <li class="silder_panel clearfix"> 
+                    <a href="#" class="f_l"">
+                        <img src="img/yingshi/cc.jpg"/>
+                    </a>
+                  <div class="silder_intro f_r">
+                    <h3> <strong><a href="#" title="唐人街探案">唐人街探案</a></strong> <span>最新：BD国语全集</span> </h3>
+                    <ul>
+                      <li>
+                        <label>类型：</label>
+                        <span><a href="#">动作</a><a href="#">惊悚</a><a href="#">魔幻</a></span></li>
+                      <li>
+                        <label>导演：</label>
+                        <span><a href="#">克里斯托弗·诺兰</a></span></li>
+                      <li>
+                        <label>主演：</label>
+                        <span><a href="#">克里斯蒂安·贝尔</a><a href="#">汤姆·哈迪</a><a href="#">安妮·海瑟薇</a></span></li>
+                    </ul>
+                    <p>[<strong>影片介绍</strong>]本片是克里斯托弗·诺兰执导的“蝙蝠侠”系列三部曲的最终章。前两部分别是2005年的《蝙蝠侠：开战时刻》和2008年的《蝙蝠侠：黑暗骑士》。此片为20..</p>
+                    <a class="silder_play"  href="#" title="蝙蝠侠前传3黑暗骑士崛起">马上观看</a></div>
+                </li>
+                <li class="silder_panel clearfix"> 
+                    <a href="#" class="f_l">
+                        <img src="img/yingshi/jj.jpg" />
+                    </a>
+                  <div class="silder_intro f_r">
+                    <h3> <strong><a href="#">九条命</a></strong> <span>最新：TC</span> </h3>
+                    <ul>
+                      <li>
+                        <label>类型：</label>
+                        <span><a href="#">科幻</a><a href="#">惊悚</a><a href="#">悬疑</a></span></li>
+                      <li>
+                        <label>导演：</label>
+                        <span><a href="#">保罗·安德森</a></span></li>
+                      <li>
+                        <label>主演：</label>
+                        <span><a href="#">米拉·乔沃维奇</a><a href="#">西耶娜·盖尔利</a><a href="#">李冰冰</a><a href="#">米歇尔·罗德里格兹</a></span></li>
+                    </ul>
+                    <p>[<strong>影片介绍</strong>]影片设定在1998年，影片不再是只把焦点集中在爱丽丝这个角色身上，吉尔将在由安布雷拉（Umbrella）制造的僵尸潮的爆发中扮演重要角色。里昂·肯尼迪..</p>
+                    <a class="silder_play"  href="#">马上观看</a></div>
+                </li>
+                <li class="silder_panel clearfix"> <a href="#" class="f_l"><img src="img/yingshi/ee.jpg" /></a>
+                  <div class="silder_intro f_r">
+                    <h3> <strong><a href="#">雪国列车</a></strong> <span>最新：BD版</span> </h3>
+                    <ul>
+                      <li>
+                        <label>类型：</label>
+                        <span><a href="#">科幻</a><a href="#">惊悚</a></span></li>
+                      <li>
+                        <label>导演：</label>
+                        <span><a href="#">雷德利·斯科特</a></span></li>
+                      <li>
+                        <label>主演：</label>
+                        <span><a href="#">劳米·拉佩斯</a><a href="#">迈克尔·法斯宾德</a></span></li>
+                    </ul>
+                    <p>[<strong>影片介绍</strong>]2058年，考古学家在非洲挖掘出的古迹发现，人类是由一个进化程度更高的外星生物种族创造的。于是人们派出飞船“普罗米修斯号”前去外星“上帝”的星..</p>
+                    <a class="silder_play"  href="#">马上观看</a></div>
+                </li>
+                <li class="silder_panel clearfix"> <a href="#" class="f_l"><img src="img/yingshi/ff.jpg" /></a>
+                  <div class="silder_intro f_r">
+                    <h3> <strong><a href="#">记忆大师</a></strong> <span>最新：BD英语上集</span> </h3>
+                    <ul>
+                      <li>
+                        <label>类型：</label>
+                        <span><a href="#">动作</a><a href="img/yingshi/gg.jpg" target="_blank">冒险</a></span></li>
+                      <li>
+                        <label>导演：</label>
+                        <span><a href="#">西蒙·韦斯特</a></span></li>
+                      <li>
+                        <label>主演：</label>
+                        <span><a href="#">西尔维斯特·史泰龙</a><a href="#">杰森·斯坦森</a><a href="#">布鲁斯·威利斯</a><a href="#">米基·洛克</a><a href="#">李连杰</a></span></li>
+                    </ul>
+                    <p>[<strong>影片介绍</strong>]敢死队2，由西蒙·韦斯特执导，主要讲述的是图尔“Tool”（米基·洛克饰演）在执行一项任务时被残忍杀害，以史泰龙为首的“敢死队”发誓为他报仇。与..</p>
+                    <a class="silder_play"  href="#">马上观看</a></div>
+                </li>
+                <li class="silder_panel clearfix"> <a href="#" class="f_l"><img src="img/yingshi/hh.jpg" /></a>
+                  <div class="silder_intro f_r">
+                    <h3> <strong><a href="#">美容针</a></strong> <span>最新：DVD版</span> </h3>
+                    <ul>
+                      <li>
+                        <label>类型：</label>
+                        <span><a href="#">剧情</a><a href="#">冒险</a></span></li>
+                      <li>
+                        <label>导演：</label>
+                        <span><a href="#">程耳</a></span></li>
+                      <li>
+                        <label>主演：</label>
+                        <span><a href="#">孙红雷</a><a href="#">王珞丹</a><a href="#">张默</a><a href="/zhuyan/sid-24389.shtml">倪大红</a><a href="/zhuyan/sid-25763.shtml">杨坤</a></span></li>
+                    </ul>
+                    <p>[<strong>影片介绍</strong>]中缅两国边境毒品交易肆虐，云南小镇的缉毒警察（张默饰）无意中由杀手（杨坤饰）查到一条重大贩毒罪案线索，而一切迹象皆指向黑帮老大（孙红雷饰）..</p>
+                    <a class="silder_play"  href="#">马上观看</a></div>
+                </li>
+                <li class="silder_panel clearfix"> <a href="#" class="f_l"><img src="img/yingshi/ii.jpg" /></a>
+                  <div class="silder_intro f_r">
+                    <h3> <strong><a href="#">移动迷宫</a></strong> <span>最新：BD下集</span> </h3>
+                    <ul>
+                      <li>
+                        <label>类型：</label>
+                        <span><a href="#">剧情</a><a href="#">悬疑</a></span></li>
+                      <li>
+                        <label>导演：</label>
+                        <span><a href="#">麦兆辉</a><a href="#">庄文强</a></span></li>
+                      <li>
+                        <label>主演：</label>
+                        <span><a href="#">梁朝伟</a><a href="#">周迅</a><a href="#">范晓萱</a><a href="#">王学兵</a><a href="#">董勇</a></span></li>
+                    </ul>
+                    <p>[<strong>影片介绍</strong>]《听风者》改编自麦家小说《暗算》，而锁定男主角为梁朝伟。《暗算》原著讲述《听风》《看风》《捕风》三个故事。该片选取第一个故事，基本框架不变..</p>
+                    <a class="silder_play"  href="#">马上观看</a></div>
+                </li>
+              </ul>
+              <ul class="silder_nav clearfix">
+                <li><a href="#"><img src="img/yingshi/aa.jpg"/></a></li>
+                <li><a href="#"><img src="img/yingshi/bb.jpg"/></a></li>
+                <li><a href="#"><img src="img/yingshi/cc.jpg"/></a></li>
+                <li><a href="#"><img src="img/yingshi/jj.jpg"/></a></li>
+                <li><a href="#"><img src="img/yingshi/ee.jpg" /></a></li>
+                <li><a href="#"><img src="img/yingshi/gg.jpg"/></a></li>
+                <li><a href="#"><img src="img/yingshi/hh.jpg"/></a></li>
+                <li><a href="#"><img src="img/yingshi/ii.jpg"/></a></li>
+              </ul>
+            </div>
+            <div class="silderBox"></div>
+        </div>
+
+        <!--轮播下面的菜单栏-->
+        <div class="le_nav clearfix">
+            <div class="nav_one">
+                <ul class="nav1">
+                    <li><a href="#" class="font-bold">电视剧</a></li>
+                    <li><a href="zixun.html">综艺</a></li>
+                    <li><a href="#">娱乐</a></li>
+                    <li><a href="#">热点</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#" class="font-bold">电影&nbsp&nbsp&nbsp</a></li>
+                    <li><a href="#">&nbsp网剧</a></li>
+                    <li><a href="#">音乐</a></li>
+                    <li><a href="#">搞笑</a></li>
+                </ul>
+            </div>
+            <div class="nav-two">
+                <ul class="nav2">
+                    <li><a href="#" class="font-bold">动漫</a></li>
+                    <li><a href="#">亲子</a></li>
+                    <li><a href="#">科技</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#" class="font-bold">教育</a></li>
+                    <li><a href="#">旅游</a></li>
+                    <li><a href="#">风尚</a></li>
+                </ul>
+            </div>
+            <div class="nav-three">
+                <ul class="nav3">
+                    <li><a href="#" class="font-bold">汽车</a></li>
+                    <li><a href="#">纪录片</a></li>
+                    <li><a href="#">拍客</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#" class="font-bold">游戏</a></li>
+                    <li><a href="#">生活</a></li>
+                    <li><a href="#">萌宠</a></li>
+                </ul>
+            </div>
+            <div class="nav-four">
+                <ul class="nav4">
+                    <li><a href="#">乐视商城</a></li>
+                    <li><a href="#">超级电视</a></li>
+                    <li><a href="#">乐小贷</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">乐迷社区</a></li>
+                    <li><a href="#">乐视APP下载</a></li>
+                </ul>
+            </div>
+            <div class="nav-five">
+                <p>会员专区</p>
+                <ul>
+                    <li><a href="#">热映大片</a></li>
+                    <li><a href="#">自动续费</a></li>
+                </ul>
+            </div>
+        </div>
+<!--电影排行版-->
+        <div class='ying-list'>
+            <!--电影排行版-->
+            <div class='ying-title'>
+                <span class='y-first'>电影排行榜</span>
+                <span class='y-two'>更多>></span>
+                <div class='ying-tab'>
+                    <ul>
+                        <li>热播榜</li>
+                        <li>高分榜</li>
+                    </ul>
+                </div>
+            </div>
+            <div class='ying-conent clearfix'>
+                <img src="img/yingshi/123456.png" alt="">
+                <div class='ying-right'>
+                    <ul>
+                        <li>
+                            <div class='ying-one'>
+                                <a href="::javascript">
+                                    <img src="img/yingshi/v_108598044_m_601_m4_260_360.jpg" alt="">
+                                </a>
+                                <div class='mub-t1'>2</div>
+                            </div>
+                            <div class='ying-bottom'>
+                                <span>反贪风暴3</span>
+                                <span>8.0</span>
+                                <p>古天乐陷黑金迷局</p>
+                            </div>
+                        </li>
+                        <li> 
+                            <div class='ying-two'>
+                                <a href="">
+                                    <img src="img/yingshi/v_116880780_m_601_m11_260_360.jpg" alt="">
+                                </a>
+                                <div class='mub-t2'>3</div>
+                            </div>
+                            <div class='ying-bottom'>
+                                <span>大师兄</span>
+                                <span>9.0</span>
+                                <p>赵又廷与黄渤配对谈情</p>
+                            </div>
+                        </li>
+                        <li> 
+                            <div class='ying-three'>
+                                <a href="">
+                                    <img src="img/yingshi/v_112879837_m_601_m5_260_360.jpg" alt="">
+                                </a>
+                                <div class='mub-t3'>4</div>
+                            </div>
+                            <div class='ying-bottom'>
+                                <span>莫斯科陷落</span>
+                                <span>8.9</span>
+                                <p>战斗名族大战外星人</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!---热门演员-->
+            <div class='ying-wrap'>
+                <div>热门演员</div>
+                <div>
+                    <ul>
+                        <li>
+                            <div class='product-main'>
+                                <div class='product-pic'>
+                                    <img src="img/yingshi/c6aae4bacd.jpg" alt="">
+                                </div>
+                                <div class='product-right'>
+                                    <div class='prod-default'>
+                                        <p>张家辉</p>
+                                        <p>演员，导演，歌手</p>
+                                    </div>
+                                    <div class='prod-active'>
+                                        <div>
+                                            张家辉
+                                            <span>冰河追凶</span>
+                                        </div>
+                                        <p>
+                                            1958年2月1日出生于香港，祖籍广东，中国香港男演员、歌手。2013年凭借《寒战》第4次获得香港电影金像奖最佳男主角奖。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class='product-main'>
+                                <div class='product-pic'>
+                                    <img src="img/yingshi/c6aae4bacd.jpg" alt="">
+                                </div>
+                                <div class='product-right'>
+                                    <div class='prod-default'>
+                                        <p>张家辉</p>
+                                        <p>演员，导演，歌手</p>
+                                    </div>
+                                    <div class='prod-active'>
+                                        <div>
+                                            张家辉
+                                            <span>冰河追凶</span>
+                                        </div>
+                                        <p>
+                                            1958年2月1日出生于香港，祖籍广东，中国香港男演员、歌手。2013年凭借《寒战》第4次获得香港电影金像奖最佳男主角奖。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class='product-main'>
+                                <div class='product-pic'>
+                                    <img src="img/yingshi/c6aae4bacd.jpg" alt="">
+                                </div>
+                                <div class='product-right'>
+                                    <div class='prod-default'>
+                                        <p>张家辉</p>
+                                        <p>演员，导演，歌手</p>
+                                    </div>
+                                    <div class='prod-active'>
+                                        <div>
+                                            张家辉
+                                            <span>冰河追凶</span>
+                                        </div>
+                                        <p>
+                                            1958年2月1日出生于香港，祖籍广东，中国香港男演员、歌手。2013年凭借《寒战》第4次获得香港电影金像奖最佳男主角奖。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class='product-main'>
+                                <div class='product-pic'>
+                                    <img src="img/yingshi/c6aae4bacd.jpg" alt="">
+                                </div>
+                                <div class='product-right'>
+                                    <div class='prod-default'>
+                                        <p>张家辉</p>
+                                        <p>演员，导演，歌手</p>
+                                    </div>
+                                    <div class='prod-active'>
+                                        <div>
+                                            张家辉
+                                            <span>冰河追凶</span>
+                                        </div>
+                                        <p>
+                                            1958年2月1日出生于香港，祖籍广东，中国香港男演员、歌手。2013年凭借《寒战》第4次获得香港电影金像奖最佳男主角奖。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class='product-main'>
+                                <div class='product-pic'>
+                                    <img src="img/yingshi/c6aae4bacd.jpg" alt="">
+                                </div>
+                                <div class='product-right'>
+                                    <div class='prod-default'>
+                                        <p>张家辉</p>
+                                        <p>演员，导演，歌手</p>
+                                    </div>
+                                    <div class='prod-active'>
+                                        <div>
+                                            张家辉
+                                            <span>冰河追凶</span>
+                                        </div>
+                                        <p>
+                                            1958年2月1日出生于香港，祖籍广东，中国香港男演员、歌手。2013年凭借《寒战》第4次获得香港电影金像奖最佳男主角奖。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class='product-main'>
+                                <div class='product-pic'>
+                                    <img src="img/yingshi/c6aae4bacd.jpg" alt="">
+                                </div>
+                                <div class='product-right'>
+                                    <div class='prod-default'>
+                                        <p>张家辉</p>
+                                        <p>演员，导演，歌手</p>
+                                    </div>
+                                    <div class='prod-active'>
+                                        <div>
+                                            张家辉
+                                            <span>冰河追凶</span>
+                                        </div>
+                                        <p>
+                                            1958年2月1日出生于香港，祖籍广东，中国香港男演员、歌手。2013年凭借《寒战》第4次获得香港电影金像奖最佳男主角奖。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+     <!-- 尾部引入 -->
+     <footer>
+        <iframe src="footer.html" class='my_footer' frameborder="0" style="width:100%"></iframe>
+    </footer> 
+    <script src='js/yingshi.js'></script>
+    <script src='js/main.js'></script>
+</body>
+</html>
